@@ -1,0 +1,45 @@
+@import "../../../styles/variables.scss";
+.group {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.summaryItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 15px;
+  }
+
+  .summaryScore {
+    font-weight: normal;
+    color: grey;
+  }
+
+  .scoreBold {
+    font-weight: bold;
+    color: black;
+  }
+
+.summaryItem[data-item-type="accent1"] {
+    color: $Light-red;
+    background-color: #fff6f5;
+  }
+  
+.summaryItem[data-item-type="accent2"] {
+    color: $Orange-yellow;
+    background-color: #fffbf2;
+  }
+.summaryItem[data-item-type="accent3"] {
+    color: $Green-cyan;
+    background-color: #f2fbfa;
+  }
+  
+.summaryItem[data-item-type="accent4"] {
+    color: $Cobalt-blue;
+    background-color: #f3f3fd;
+  }

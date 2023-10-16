@@ -1,0 +1,58 @@
+@import "../../styles/variables.scss";
+
+.result {
+  align-items: center;
+  background: linear-gradient(#6441fd, #322bea );
+  border-radius: 1.5rem;
+  color: $Light-lavander;
+  display: flex;
+  flex-basis: 50%;
+  flex-direction: column;
+  height: 600px;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 60px;
+  width: 550px;
+}
+
+.title {
+  color: $Light-lavander;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: -20px;
+}
+
+.circle {
+  align-items: center;
+  background: linear-gradient(#322bea, #6441fd);
+  border-radius: 15rem;
+  flex-direction: column;
+  display: flex;
+  height: 15rem;
+  justify-content: center;
+  margin: auto;
+  width: 15rem;
+}
+
+  .score {
+    color: $White;
+    font-size: 4em;
+    font-weight: bold;
+  }
+
+
+.scoreTxt{
+  color: $White;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+  .description {
+    color: $Light-lavander;
+    font-size: 1.1em;
+    // margin: 1.5rem;
+    margin: 20px;
+    max-width:100%;
+    text-align: center;
+    word-wrap:break-word;
+  }
